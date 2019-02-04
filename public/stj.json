@@ -1,0 +1,50 @@
+[
+  {
+    "month": "Jan",
+    "rainfall": 52.2
+  },
+  {
+    "month": "Feb",
+    "rainfall": 51.0
+  },
+  {
+    "month": "Mar",
+    "rainfall": 65.2
+  },
+  {
+    "month": "Apr",
+    "rainfall": 76.6
+  },
+  {
+    "month": "May",
+    "rainfall": 158.0
+  },
+  {
+    "month": "Jun",
+    "rainfall": 139.4
+  },
+  {
+    "month": "Jul",
+    "rainfall": 64.6
+  },
+  {
+    "month": "Aug",
+    "rainfall": 84.8
+  },
+  {
+    "month": "Sep",
+    "rainfall": 125.2
+  },
+  {
+    "month": "Oct",
+    "rainfall": 184.8
+  },
+  {
+    "month": "Nov",
+    "rainfall": 133.8
+  },
+  {
+    "month": "Dec",
+    "rainfall": 40.8
+  }
+]
