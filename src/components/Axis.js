@@ -24,8 +24,12 @@ class Axis extends Component {
     this.updateAxis();
   }
 
-  componentDidUpdate() {
-    this.updateAxis();
+  componentDidUpdate(prevProps) {
+    const { scale } = this.props;
+    if (
+      JSON.stringify(prevProps.scale.domain())
+      !== JSON.stringify(scale.domain())
+    ) this.updateAxis();
   }
 
   updateAxis() {
