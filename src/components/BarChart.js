@@ -24,7 +24,7 @@ class BarChart extends Component {
 
     const xScale = d3
       .scaleBand()
-      .domain((data || []).map(d => d.month))
+      .domain(data.map(d => d.month))
       .rangeRound([0, width])
       .padding(0.1);
 
